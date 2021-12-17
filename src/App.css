@@ -1,0 +1,8 @@
+.App {
+  margin-top: 50px;
+}
+.profile-card {
+  margin-top: 24px;
+  border-radius: 8px !important;
+  box-shadow: 0 0 4px 4px rgba(200, 200, 200, 0.1);
+}

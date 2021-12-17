@@ -1,0 +1,10 @@
+body {
+  height: unset !important;
+  background: #efefef !important;
+  font-family: monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  margin-bottom: 6px !important;
+}
