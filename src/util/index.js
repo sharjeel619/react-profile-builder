@@ -43,7 +43,8 @@ export const getAllUserData = () => {
 
 export const saveUserInfo = (data, index) => {
   let allData = getAllUserData();
-  if (index) allData[index] = data;
+  console.log(index)
+  if (index >= 0) allData[index] = data;
   else allData.push(data);
   localStorage.setItem("users", JSON.stringify(allData));
 };
