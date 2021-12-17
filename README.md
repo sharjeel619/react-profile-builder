@@ -1,3 +1,7 @@
+# Authors Note
+
+A lot of validation, error and type checks were ignored due to time constraints. Also kept state management extremely simple and straight forward.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
