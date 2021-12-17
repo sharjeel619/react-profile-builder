@@ -328,7 +328,7 @@ const UserInfoForm = ({ type, handleSubmit, initialState, isSaving }) => {
         </Card>
         <Row gutter={24} justify="center" style={{ margin: "24px 0" }}>
           <Button.Group size="large">
-            <ResetButton>Reset</ResetButton>
+            {!initialState && <ResetButton>Reset</ResetButton>}
             &nbsp;
             <Button type="primary" htmlType="submit" loading={isSaving}>Submit</Button>
             {/* <SubmitButton>Submit</SubmitButton> */}
